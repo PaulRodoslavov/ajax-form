@@ -2,18 +2,18 @@ const select = document.getElementById('breeds');
 const card = document.querySelector('.card');
 const form = document.querySelector('form');
 
-let xhr = new XMLHttpRequest();
-xhr.onreadystagehnage = () => {
-   if (xhr.readyState === 4) {
-      const data = JSON.parse(xhr.responseText);
-      console.log(data);
-
-   }
-}
-xhr.open('GET', 'https://dog.ceo/api/breeds/list' );
-xhr.send();
-
-console.log(xhr.responseText);
+// let xhr = new XMLHttpRequest();
+// xhr.onreadystagehnage = () => {
+//    if (xhr.readyState === 4) {
+//       const data = JSON.parse(xhr.responseText);
+//       console.log(data);
+//
+//    }
+// }
+// xhr.open('GET', 'https://dog.ceo/api/breeds/list' );
+// xhr.send();
+//
+// console.log(xhr.responseText);
 
 // ------------------------------------------
 //  FETCH FUNCTIONS
